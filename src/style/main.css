@@ -18,6 +18,7 @@ main {
 .controls {
 	top: 2rem;
 	left: 2rem;
+	display: flex;
 }
 
 .control {
@@ -45,6 +46,8 @@ main {
 	border-radius: .4rem;
 	border: 2px solid green;
 	box-shadow: 1px 1px 4px 2px #557668;
+	display: block;
+	margin:10% auto;
 }
 
 .count_button:active {
